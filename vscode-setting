@@ -1,0 +1,11 @@
+{
+  "keyboard.dispatch": "keyCode", // workaround to make Caps Lock another Esc for Vim
+  "editor.minimap.enabled": false,
+  "vim.handleKeys": {
+      "<C-c>": false,
+      "<C-v": false,
+      "<C-f>": false
+  },
+  "vim.startInInsertMode": true,
+  "typescript.autoImportSuggestions.enabled": false // auto import bug in VSCode
+}
